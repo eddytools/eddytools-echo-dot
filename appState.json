@@ -1,0 +1,72 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "f71362b2-af0a-4e49-87ad-3b6aa1dc2312": {
+        "id": "f71362b2-af0a-4e49-87ad-3b6aa1dc2312",
+        "parent": null,
+        "name": "eddytools-echo-dot.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "eddytools-echo-dot.py",
+        "cursor": {
+          "lineNumber": 4,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "eddytoolsEchoDot"
+        },
+        "triggers": [],
+        "lastUpdated": 1602279190266
+      }
+    },
+    "openFiles": [
+      "f71362b2-af0a-4e49-87ad-3b6aa1dc2312"
+    ],
+    "currentFileId": "f71362b2-af0a-4e49-87ad-3b6aa1dc2312",
+    "resources": {},
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": "CloudFormation",
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.3.1",
+    "projectName": "eddytools-echo-dot",
+    "projectDescription": "Alexa Skills by EddyTools",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1602279272950
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "eddytools-echo-dot",
+      "url": "https://github.com/eddytools/eddytools-echo-dot"
+    }
+  }
+}
