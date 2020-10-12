@@ -1,3 +1,2 @@
 def handler(event, context):
-    
-    return {"message": "Successfully executed"}
+    return {"message": "EddyTools Started"}

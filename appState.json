@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "eddytools-echo-dot.py",
         "cursor": {
-          "lineNumber": 4,
-          "column": 1
+          "lineNumber": 2,
+          "column": 42
         },
         "config": {
           "runtime": "python3.8",
@@ -22,15 +22,40 @@
           "layers": [],
           "name": "eddytoolsEchoDot"
         },
-        "triggers": [],
-        "lastUpdated": 1602279190266
+        "triggers": [
+          {
+            "resourceName": "alexaSK69c239aedab84b919171ed88b904c3d6",
+            "config": {}
+          }
+        ],
+        "lastUpdated": 1602510117787,
+        "testCases": {
+          "e460bcb9-7a01-446b-8ba8-ba275cf6fe7e": {
+            "id": "e460bcb9-7a01-446b-8ba8-ba275cf6fe7e",
+            "name": "Test event",
+            "functionId": "f71362b2-af0a-4e49-87ad-3b6aa1dc2312",
+            "event": "{\n    \"key1\": \"value1\",\n    \"key2\": \"value2\",\n    \"key3\": \"value3\"\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
       "f71362b2-af0a-4e49-87ad-3b6aa1dc2312"
     ],
     "currentFileId": "f71362b2-af0a-4e49-87ad-3b6aa1dc2312",
-    "resources": {},
+    "resources": {
+      "alexaSK69c239aedab84b919171ed88b904c3d6": {
+        "name": "alexaSK69c239aedab84b919171ed88b904c3d6",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.69c239ae-dab8-4b91-9171-ed88b904c3d6",
+          "applicationID": ""
+        }
+      }
+    },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
@@ -60,7 +85,7 @@
     "platform": "AWS",
     "language": "python",
     "platformRegions": {},
-    "lastSave": 1602279272950
+    "lastSave": 1602510211300
   },
   "VCS_STATE": {
     "provider": "GitHub",

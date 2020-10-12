@@ -82,6 +82,17 @@
           ]
         }
       }
+    },
+    "alexaSK69c239aedab8eddytoolsEchoDotPermission": {
+      "Type": "AWS::Lambda::Permission",
+      "Properties": {
+        "Action": "lambda:InvokeFunction",
+        "FunctionName": {
+          "Ref": "eddytoolsEchoDot"
+        },
+        "Principal": "alexa-appkit.amazon.com",
+        "EventSourceToken": "amzn1.ask.skill.69c239ae-dab8-4b91-9171-ed88b904c3d6"
+      }
     }
   }
 }
